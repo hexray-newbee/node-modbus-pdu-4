@@ -1,0 +1,17 @@
+{
+  "name": "node-modbus-pdu-4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "webpack": "webpack",
+    "test": "node build/index.js"
+  },
+  "dependencies": {
+    "modbus-stream": "^0.41.0",
+    "serialport": "^5"
+  },
+  "devDependencies": {
+    "webpack": "^3"
+  }
+}
